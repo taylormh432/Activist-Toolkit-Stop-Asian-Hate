@@ -1,0 +1,260 @@
+
+* { /* Reset the space of the webpage */
+   margin: 0 auto;
+   padding: 0px;
+}
+
+/* SECTIONS*/
+
+html{
+  scroll-behavior: smooth;
+}
+
+body {
+    background-color: rgb(235, 230, 218); 
+    
+}
+
+.intro {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 1.5em;
+  padding-right: 1.5em;
+  padding-left: 1.5em;
+  padding-bottom: 2.5em;
+}
+
+#beginning {
+  text-align: center;
+  padding-top: 3em;
+  width: 85%;
+  font-family: "Monaco", monospace;
+  font-size: 18px;
+  
+}
+
+#statistics {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-family: "Monaco", monospace;
+}
+
+#newsstories {
+  text-align: center;
+}
+
+.resources {
+  text-align: center;
+}
+
+
+
+/* FONTS */
+
+@font-face {
+  font-family: "backbones";
+  src: url("Fonts/Backbones-YzAoL.ttf");
+}
+
+@font-face {
+  font-family: "aboreto";
+  src: url("Fonts/Aboreto-Regular.ttf");
+}
+
+/*MAIN TITLES*/
+
+#title{
+  color: #FF4949;
+  text-align: center;
+  padding: 0.8em;
+  font-weight: 900px;
+  font-size: 70px;
+  font-family: "backbones";
+  letter-spacing: 20px
+}
+
+.learn-title{
+  text-align: center;
+  font-size: 40px;
+  font-family: "aboreto";
+}
+#covid {
+  color: #FF4949;
+}
+
+.stat-title{
+  font-weight: bolder;
+}
+
+.factTitle {
+  color: #FF4949;
+}
+
+/* SUB-TEXT */
+
+.hashtag {
+  color: #FF4949;
+  font-family: "backbones";
+}
+
+.learnparagraph{
+  text-align: center;
+  font-family: "Monaco", monospace;
+  font-weight: lighter;
+}
+
+.backstory {
+  font-size: 40px;
+  font-family: "aboreto";
+}
+
+.stat-title{
+  color: #FF4949;
+}
+
+#factTitle {
+  color: #FF4949;
+  text-align: center;
+  font-family: "Monaco", monospace;
+  font-weight: bolder;
+  margin-bottom: 0.5em;
+}
+
+<br>
+<br>
+
+.headlines {
+  font-family: "aboreto";
+  font-size: 40px;
+  color: #FF4949;
+}
+
+h3 a {
+  text-decoration: none;
+  font-family: "Monaco", monospace;
+  color: black;
+}
+
+h3 a:hover {
+  color: #FF4949;
+}
+
+p {
+  font-family: "Monaco", monospace;
+  color: black;
+}
+
+.takeAction {
+  font-size: 40px;
+  font-family: "aboreto";
+}
+
+#action {
+  color: #FF4949;
+}
+
+
+.resourceLink {
+  font-family: "aboreto";
+  font-size: 28px;
+}
+
+h2 a{
+  color: #FF4949;
+}
+
+h4 {
+  font-family: "Monaco", monospace;
+  color: black;
+  font-weight: lighter;
+}
+
+
+/*IMAGES */
+
+#cardboardsign {
+ max-width: 100%;
+ max-height: 100vw;
+ margin: auto; 
+}
+
+.learnimg {
+  width: 50%;
+  height: 50%;
+}
+
+.actionImg {
+  width: 50%;
+  height: 50%;
+}
+
+
+
+/*NAV BAR */
+
+ul {
+  list-style-type: none;
+  overflow: hidden;
+  padding: 2em;
+  padding-bottom: 20px;
+  text-align: center;
+  word-spacing: 80px;
+  background-color: rgba(255, 255, 255, 0.849);
+}
+
+li {
+  display: inline;
+}
+
+li a{
+  padding: 1em;
+  font-size: 30px;
+  color: #FF4949;
+  font-family:"aboreto";
+  text-decoration: none;
+  font-weight: bold;
+}
+
+li a:hover{
+  background-color: #FF4949;
+  color: rgba(255, 255, 255, 0.849)
+}
+
+
+
+
+/* FACT BUTTON GENERATOR */
+
+#factButton {
+  background:rgb(235, 230, 218)
+  color: black;
+  border-radius: 10px;
+  font-family: "Monaco", monospace;
+  padding: 10px;
+  border-style: none;
+  
+}
+
+#factButton:hover {
+  background: black;
+  color: rgb(235, 230, 218);
+}
+
+
+
+/* Flex & Text Boxes */
+.learn-block{
+  display: flex;
+    flex-direction: column;
+    margin-bottom: 80px;
+    padding: 40px;
+    border-radius: 30px;
+    margin-top: 50px;
+    margin-right: 8em;
+    margin-left: 8em;
+    background-color: rgba(255, 255, 255, 0.849);
+    transition: box-shadow .3s ease;
+    justify-content: top;
+    box-shadow: 0 2px 4px 0 rgba(190, 112, 112, 0.05), 0 3px 10px 0 rgba(190, 112, 112, 0.05);
